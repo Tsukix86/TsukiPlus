@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tsukiplus",
+	"version": "${version}",
+	"name": "TsukiPlus",
+	"description": "This mod adds things to minecraft that can help spruce up the classic vanilla experience.",
+	"authors": [
+		"Tsuki"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tsukiplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tsukiplus.TsukiPlus"
+		],
+		"client": [
+			"net.tsukiplus.TsukiPlusClient"
+		],
+		"fabric-datagen": [
+			"net.tsukiplus.TsukiPlusModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tsukiplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
