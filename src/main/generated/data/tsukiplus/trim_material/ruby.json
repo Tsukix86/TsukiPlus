@@ -1,0 +1,9 @@
+{
+  "asset_name": "ruby",
+  "description": {
+    "translate": "trim_material.tsukiplus.ruby",
+    "color": "#cc0000"
+  },
+  "ingredient": "tsukiplus:ruby",
+  "item_model_index": 0.75
+}

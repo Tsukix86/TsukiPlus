@@ -8,6 +8,7 @@ import net.tsukiplus.data.ModLootTableGenerator;
 import net.tsukiplus.data.ModModelProvider;
 import net.tsukiplus.data.ModRecipeGenerator;
 import net.tsukiplus.data.ModWorldGenerator;
+import net.tsukiplus.data.ModTrimMaterials;
 import net.tsukiplus.world.ModConfiguredFeatures;
 import net.tsukiplus.world.ModPlacedFeatures;
 
@@ -27,5 +28,6 @@ public class TsukiPlusModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+		//registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL,ModTrimMaterials::bootstrap);
 	}
 }

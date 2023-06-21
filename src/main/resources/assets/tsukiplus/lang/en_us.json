@@ -9,5 +9,10 @@
 
   "block.tsukiplus.deepslate_mythril_ore":"Deepslate Mythril Ore",
 
-  "block.tsukiplus.block_of_mythril":"Block of Mythril"
+  "block.tsukiplus.block_of_mythril":"Block of Mythril",
+
+  "trim_material.tsukiplus.ruby": "Ruby Material",
+
+  "trim_material.tsukiplus.mythril_ingot": "Mythril Material"
+
 }
