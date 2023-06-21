@@ -15,15 +15,19 @@ import net.tsukiplus.TsukiPlus;
 public class ModItemGroup {
     public static ItemGroup RUBY = Registry.register(Registries.ITEM_GROUP, new Identifier(TsukiPlus.MOD_ID, "ruby"),
             FabricItemGroup.builder()
-                    .displayName(Text.literal("Ruby item Group"))
+                    .displayName(Text.literal("Modded Item Group"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                     }).build());
+
 
     public static void registerItemGroups() {
         //adding items to minecraft(existing) groups
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ModItems.RUBY);
+
+            /*ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+                entries.add(ModItems.MYTHRIL_INGOT); */
         });
     }
 

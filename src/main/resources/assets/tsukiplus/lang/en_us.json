@@ -1,3 +1,13 @@
 {
-  "item.tsukiplus.ruby": "Ruby"
+  "item.tsukiplus.ruby": "Ruby",
+
+  "item.tsukiplus.mythril_ingot":"Mythril Ingot",
+
+  "item.tsukiplus.raw_mythril":"Raw Mythril",
+
+  "block.tsukiplus.mythril_ore":"Mythril Ore",
+
+  "block.tsukiplus.deepslate_mythril_ore":"Deepslate Mythril Ore",
+
+  "block.tsukiplus.block_of_mythril":"Block of Mythril"
 }

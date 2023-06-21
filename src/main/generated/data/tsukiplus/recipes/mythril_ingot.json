@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tsukiplus:block_of_mythril"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tsukiplus:mythril_ingot"
+  }
+}
