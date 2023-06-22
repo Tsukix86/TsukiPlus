@@ -20,6 +20,12 @@
       }
     },
     {
+      "model": "example:item/iron_chestplate_ruby_trim",
+      "predicate": {
+        "trim_type": 0.45
+      }
+    },
+    {
       "model": "minecraft:item/iron_chestplate_copper_trim",
       "predicate": {
         "trim_type": 0.5
@@ -35,12 +41,6 @@
       "model": "minecraft:item/iron_chestplate_emerald_trim",
       "predicate": {
         "trim_type": 0.7
-      }
-    },
-    {
-      "model": "example:item/iron_chestplate_ruby_trim",
-      "predicate": {
-        "trim_type": 0.75
       }
     },
     {

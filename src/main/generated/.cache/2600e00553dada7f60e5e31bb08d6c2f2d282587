@@ -1,12 +1,14 @@
-// 1.20.1	2023-06-21T12:21:32.9057149	TsukiPlus/Model Definitions
+// 1.20.1	2023-06-21T20:39:12.3524399	TsukiPlus/Model Definitions
 e8f7e1eb6df2098cc66b40bd96531db4f75c3719 assets\tsukiplus\models\item\raw_mythril.json
 9d1efbdfb25bca9959a0361bd2ce6a424fdc5c30 assets\tsukiplus\models\item\block_of_mythril.json
 945e8664585948fcc4982a5efc41f93b188a1c50 assets\tsukiplus\models\item\mythril_ore.json
+6c4d1dd15f795415f64e074604f710eb488624a2 assets\tsukiplus\models\item\mythril_pickaxe.json
 90139dadd40eff1159e42f7e1fb15596c2df5961 assets\tsukiplus\models\block\mythril_ore.json
 67b61c90059a90f5349909f40e44b8976d39a91c assets\tsukiplus\models\block\block_of_mythril.json
 b74a742cb7879ce674d4174aaf6b590804a06652 assets\tsukiplus\models\item\deepslate_mythril_ore.json
 94d61b315a467840f7c1cc2602fd2f397a785821 assets\tsukiplus\models\block\deepslate_mythril_ore.json
 d08f3211e012d469cc59f35768c9fe8a1b5d808d assets\tsukiplus\models\item\ruby.json
+1e6edb05d41632a08aedb14b52a0a5ed7623c2c9 assets\tsukiplus\models\item\mythril_sword.json
 d7f15c76bc10c81e691532d61f2d6085b0de3d4d assets\tsukiplus\blockstates\mythril_ore.json
 c209f362ce78b454e6e46bd117547c3512749c2c assets\tsukiplus\blockstates\deepslate_mythril_ore.json
 9b9bd34777e5ce74e1d283732b660a08d218ca8d assets\tsukiplus\blockstates\block_of_mythril.json

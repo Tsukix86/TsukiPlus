@@ -27,5 +27,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MYTHRIL_INGOT, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_MYTHRIL);
         //offerSmithingTrimRecipe(exporter, ModItems.MYTHRIL_INGOT, new Identifier(TsukiPlus.MOD_ID, "mythril_trim"));
         //offerSmithingTrimRecipe(exporter, ModItems.RUBY, new Identifier(TsukiPlus.MOD_ID, "ruby_trim"));
+
     }
 }

@@ -16,6 +16,10 @@ public class ModItems {
 
     public static final Item RAW_MYTHRIL = registerItem("raw_mythril", new Item(new FabricItemSettings()));
 
+    public static final Item MYTHRIL_PICKAXE = registerItem("mythril_pickaxe", new PickaxeItem(ModToolMaterials.MYTHRIL, 4, 4.5f, new FabricItemSettings()));
+    public static final Item MYTHRIL_SWORD = registerItem("mythril_sword", new SwordItem(ModToolMaterials.MYTHRIL_SWORD, 5, -2.4f, new FabricItemSettings()));
+
+
 
 
     private static Item registerItem(String name, Item item) {

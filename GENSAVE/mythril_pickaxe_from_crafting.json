@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm ",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "m": {
+      "item": "tsukiplus:mythril_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tsukiplus:mythril_pickaxe",
+    "count": 1
+  }
+}
