@@ -26,6 +26,10 @@ public class ModItemGroup {
                         entries.add(ModItems.MYTHRIL_SHOVEL);
                         entries.add(ModItems.MYTHRIL_AXE);
                         entries.add(ModItems.MYTHRIL_HOE);
+                        entries.add(ModItems.MYTHRIL_HELMET);
+                        entries.add(ModItems.MYTHRIL_CHESTPLATE);
+                        entries.add(ModItems.MYTHRIL_LEGGINGS);
+                        entries.add(ModItems.MYTHRIL_BOOTS);
                         entries.add(ModBlocks.BLOCK_OF_MYTHRIL);
                         entries.add(ModBlocks.MYTHRIL_ORE);
                         entries.add(ModItems.MYTHRIL_INGOT);
@@ -41,6 +45,35 @@ public class ModItemGroup {
             entries.add(ModItems.MYTHRIL_INGOT);
             entries.add(ModItems.RAW_MYTHRIL);
             entries.add(ModItems.MYTHRIL_NUGGET);
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+
+            entries.add(ModItems.MYTHRIL_HELMET);
+            entries.add(ModItems.MYTHRIL_CHESTPLATE);
+            entries.add(ModItems.MYTHRIL_LEGGINGS);
+            entries.add(ModItems.MYTHRIL_BOOTS);
+            entries.add(ModItems.MYTHRIL_AXE);
+            entries.add(ModItems.MYTHRIL_SWORD);
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
+
+            entries.add(ModItems.MYTHRIL_PICKAXE);
+            entries.add(ModItems.MYTHRIL_SHOVEL);
+            entries.add(ModItems.MYTHRIL_AXE);
+            entries.add(ModItems.MYTHRIL_HOE);
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+
+            entries.add(ModBlocks.BLOCK_OF_MYTHRIL);
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+
+            entries.add(ModBlocks.MYTHRIL_ORE);
+            entries.add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
 
         });
     }
