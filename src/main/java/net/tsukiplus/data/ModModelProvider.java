@@ -27,7 +27,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MYTHRIL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MYTHRIL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
     }
 }

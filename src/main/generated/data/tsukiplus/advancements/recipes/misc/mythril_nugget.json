@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:block_of_mythril"
+        "recipe": "minecraft:mythril_nugget"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:block_of_mythril"
+      "minecraft:mythril_nugget"
     ]
   },
   "sends_telemetry_event": false

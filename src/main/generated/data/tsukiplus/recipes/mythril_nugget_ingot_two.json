@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tsukiplus:mythril_nugget"
+        }
+    },
+    "result": {
+        "item": "tsukiplus:mythril_ingot",
+        "count": 1
+    }
+}

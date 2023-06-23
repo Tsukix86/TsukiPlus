@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block_of_mythril": {
+    "has_mythril_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "tsukiplus:block_of_mythril"
+              "tsukiplus:mythril_nugget"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block_of_mythril",
+      "has_mythril_nugget",
       "has_the_recipe"
     ]
   ],

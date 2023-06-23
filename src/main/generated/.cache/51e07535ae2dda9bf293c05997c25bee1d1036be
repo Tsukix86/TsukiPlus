@@ -1,9 +1,9 @@
-// 1.20.1	2023-06-21T20:39:12.3524399	TsukiPlus/Recipes
-23427a41a69fc93e3b9ec1184acc649e9d76370f data\tsukiplus\recipes\mythril_ingot.json
-bf9d7a2f9da2c9212ed1efbc074a74b7068bc747 data\tsukiplus\recipes\block_of_mythril.json
+// 1.20.1	2023-06-22T00:52:43.335691	TsukiPlus/Recipes
+4a3232aac5ad44a177f4ed7f6a7e3519bc110f77 data\tsukiplus\recipes\mythril_ingot.json
 723965ef05ca483ca386f6121f803650797ab445 data\tsukiplus\recipes\mythril_ingot_from_smelting_raw_mythril.json
+1f39fdd9a35d4efac4594b86b69ea60cca79092d data\tsukiplus\recipes\mythril_nugget.json
 577cf63bf9b11cc6b5cdb46556e3b9cf9e13b546 data\tsukiplus\recipes\mythril_ingot_from_blasting_raw_mythril.json
-ece59b2f06bb112409715bb90d28bc74ff72a615 data\tsukiplus\advancements\recipes\building_blocks\mythril_ingot.json
+0ebd9903a19924655592d7df943730ab2245b5e1 data\tsukiplus\advancements\recipes\misc\mythril_ingot.json
 ccb08fad8ab21592ff43bd0a7c4a7aae6c8f8893 data\tsukiplus\advancements\recipes\misc\mythril_ingot_from_blasting_raw_mythril.json
+004aabd76bda9c74107db4f5acf72fdcc7af7e55 data\tsukiplus\advancements\recipes\misc\mythril_nugget.json
 c44f5719ef7c25f60b222b0b0c2fe15c706577b0 data\tsukiplus\advancements\recipes\misc\mythril_ingot_from_smelting_raw_mythril.json
-e1d731d2a0e15baf2ed0ac2623e6f9fb91b70fd3 data\tsukiplus\advancements\recipes\decorations\block_of_mythril.json

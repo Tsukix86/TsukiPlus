@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "tsukiplus:block_of_mythril"
+    }
+  },
+  "result": {
+    "item": "tsukiplus:mythril_ingot",
+    "count": 9
+  }
+}

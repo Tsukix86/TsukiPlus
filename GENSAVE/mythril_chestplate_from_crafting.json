@@ -1,20 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " m ",
-    " m ",
-    " / "
+    "m m",
+    "mmm",
+    "mmm"
   ],
   "key": {
     "m": {
       "item": "tsukiplus:mythril_ingot"
-    },
-    "/": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "tsukiplus:mythril_sword",
+    "item": "tsukiplus:mythril_chestplate",
     "count": 1
   }
 }

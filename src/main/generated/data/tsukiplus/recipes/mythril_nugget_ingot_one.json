@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tsukiplus:mythril_ingot"
+    }
+  ],
+  "result": {
+    "item": "tsukiplus:mythril_nugget",
+    "count": 9
+  }
+}

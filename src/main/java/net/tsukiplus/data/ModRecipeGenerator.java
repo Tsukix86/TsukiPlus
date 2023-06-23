@@ -24,7 +24,8 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerSmelting(exporter, List.of(ModItems.RAW_MYTHRIL), RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 0.7f, 200, "");
         offerBlasting(exporter, List.of(ModItems.RAW_MYTHRIL), RecipeCategory.MISC, ModItems.MYTHRIL_INGOT, 1.4f, 100, "");
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MYTHRIL_INGOT, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_MYTHRIL);
+        //offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MYTHRIL_INGOT, RecipeCategory.DECORATIONS, ModBlocks.BLOCK_OF_MYTHRIL);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.MYTHRIL_NUGGET, RecipeCategory.MISC, ModItems.MYTHRIL_INGOT);
         //offerSmithingTrimRecipe(exporter, ModItems.MYTHRIL_INGOT, new Identifier(TsukiPlus.MOD_ID, "mythril_trim"));
         //offerSmithingTrimRecipe(exporter, ModItems.RUBY, new Identifier(TsukiPlus.MOD_ID, "ruby_trim"));
 

@@ -20,7 +20,7 @@ public enum ModToolMaterials implements ToolMaterial {
     MYTHRIL(MiningLevels.IRON, 500, 7.0f, 0.0f, 16, () -> {
         return Ingredient.ofItems(ModItems.MYTHRIL_INGOT);
     }),
-    MYTHRIL_SWORD(MiningLevels.HAND, 500, 7.0f, 0.5f, 16, () -> {
+    MYTHRIL_SWORD(MiningLevels.WOOD, 500, 7.0f, 0.5f, 16, () -> {
         return Ingredient.ofItems(ModItems.MYTHRIL_INGOT);
     }),
     ORICHALCUM(MiningLevels.IRON, 500, 7.0f, 0.0f, 16, () -> {
